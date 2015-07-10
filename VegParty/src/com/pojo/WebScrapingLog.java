@@ -7,8 +7,8 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-// @Cacheable(false) - not working
-public class WebScrapingLog {  
+// @Cacheable(false) - not working is commited???
+public class WebScrapingLog {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
