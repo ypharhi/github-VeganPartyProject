@@ -17,7 +17,7 @@ public class WebScrapingLog {
 	private Integer devFactor = null;
 	private Integer devBFlag = 0;
 
-	public Date getWebScrapingTime() {
+	public Date getWebScrapingTime() { //
 		return webScrapingTime;
 	}
 
