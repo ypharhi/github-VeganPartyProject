@@ -8,8 +8,6 @@
 		<shared-cache-mode>NONE</shared-cache-mode>
 		<provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider>
 		<exclude-unlisted-classes>true</exclude-unlisted-classes>
-		<class>com.pojo.Sms</class>
-		<class>com.pojo.SmsSummary</class>
 		<class>com.pojo.WebScrapingLog</class>
 		<properties>
 			<property name="datanucleus.NontransactionalRead" value="true" />
