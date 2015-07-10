@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Entity
 // @Cacheable(false) - not working
-public class WebScrapingLog {
+public class WebScrapingLog { 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
